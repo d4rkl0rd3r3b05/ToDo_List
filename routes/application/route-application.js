@@ -1,5 +1,5 @@
 module.exports = function(router) { 
 	router.get('*', function(req, res) {
-      	res.sendFile('./public/index.html'); 
+      	res.sendFile('index.html', { root: path.join(__dirname, './dist') });
 	});
 }

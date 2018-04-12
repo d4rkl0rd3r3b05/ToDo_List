@@ -1,4 +1,4 @@
-var targetList = angular.module('targetList', []);
+var targetList = angular.module('ToDo_List', []);
 
 function mainController($scope, $http) {
     $scope.formData = {};
